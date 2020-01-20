@@ -1,0 +1,24 @@
+{
+  "name": "JGson",
+  "version": "0.1.0",
+  "summary": "this is a json framework.",
+  "swift_versions": "4.0",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/zhoujabcd/JGson",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhoujabcd": "labinnah1982@hotmail.com"
+  },
+  "source": {
+    "git": "https://github.com/zhoujabcd/JGson.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JGson/Classes/**/*",
+  "swift_version": "4.0"
+}

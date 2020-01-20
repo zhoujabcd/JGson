@@ -1,7 +1,8 @@
 use_frameworks!
 
 target 'JGson_Example' do
-  pod 'JGson', :path => '../'
+#  pod 'JGson', :path => '../'
+  pod 'JGson',:podspec => '../JGson.podspec'
 
   target 'JGson_Tests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module JGson {
+  umbrella header "JGson-umbrella.h"
+
+  export *
+  module * { export * }
+}

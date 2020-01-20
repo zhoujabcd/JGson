@@ -15,6 +15,9 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8CE7F229FCFBB2A3CCF246C9 /* Pods_JGson_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B0B1104021D944DC44443ED /* Pods_JGson_Tests.framework */; };
+		D08B449E23D0B0AF00ED5E83 /* JGson.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B449D23D0B0AF00ED5E83 /* JGson.m */; };
+		D08B44A123D0B3D000ED5E83 /* JGsonObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B44A023D0B3D000ED5E83 /* JGsonObject.m */; };
+		D08B44A423D0B48400ED5E83 /* JGsonConst.m in Sources */ = {isa = PBXBuildFile; fileRef = D08B44A323D0B48400ED5E83 /* JGsonConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +32,8 @@
 
 /* Begin PBXFileReference section */
 		09F81B40EAE3726AF6075CEA /* Pods-JGson_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGson_Example.release.xcconfig"; path = "Target Support Files/Pods-JGson_Example/Pods-JGson_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2142380E7D78AD6936DE6850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		3BB73104116B4560502EE1E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2142380E7D78AD6936DE6850 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3BB73104116B4560502EE1E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5B0B1104021D944DC44443ED /* Pods_JGson_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGson_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* JGson_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JGson_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +48,14 @@
 		9B2A3A298AC1D8362FF29E08 /* Pods-JGson_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGson_Example.debug.xcconfig"; path = "Target Support Files/Pods-JGson_Example/Pods-JGson_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A2B1BDC0A73B87903E466860 /* Pods_JGson_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JGson_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC540A1CD8CE7CB4B250754 /* Pods-JGson_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGson_Tests.release.xcconfig"; path = "Target Support Files/Pods-JGson_Tests/Pods-JGson_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D260AACFFFFA8977692CDAA0 /* JGson.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JGson.podspec; path = ../JGson.podspec; sourceTree = "<group>"; };
+		D08B449B23D0B0AE00ED5E83 /* JGson_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JGson_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		D08B449C23D0B0AF00ED5E83 /* JGson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGson.h; sourceTree = "<group>"; };
+		D08B449D23D0B0AF00ED5E83 /* JGson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGson.m; sourceTree = "<group>"; };
+		D08B449F23D0B3D000ED5E83 /* JGsonObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGsonObject.h; sourceTree = "<group>"; };
+		D08B44A023D0B3D000ED5E83 /* JGsonObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGsonObject.m; sourceTree = "<group>"; };
+		D08B44A223D0B48400ED5E83 /* JGsonConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JGsonConst.h; sourceTree = "<group>"; };
+		D08B44A323D0B48400ED5E83 /* JGsonConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGsonConst.m; sourceTree = "<group>"; };
+		D260AACFFFFA8977692CDAA0 /* JGson.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JGson.podspec; path = ../JGson.podspec; sourceTree = "<group>"; };
 		F881D9B90ED13B3D444B4C24 /* Pods-JGson_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JGson_Tests.debug.xcconfig"; path = "Target Support Files/Pods-JGson_Tests/Pods-JGson_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,6 +103,7 @@
 		607FACD21AFB9204008FA782 /* Example for JGson */ = {
 			isa = PBXGroup;
 			children = (
+				D08B449A23D0B07B00ED5E83 /* Class */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -147,8 +158,21 @@
 				F881D9B90ED13B3D444B4C24 /* Pods-JGson_Tests.debug.xcconfig */,
 				CFC540A1CD8CE7CB4B250754 /* Pods-JGson_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D08B449A23D0B07B00ED5E83 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D08B449C23D0B0AF00ED5E83 /* JGson.h */,
+				D08B449D23D0B0AF00ED5E83 /* JGson.m */,
+				D08B449B23D0B0AE00ED5E83 /* JGson_Example-Bridging-Header.h */,
+				D08B449F23D0B3D000ED5E83 /* JGsonObject.h */,
+				D08B44A023D0B3D000ED5E83 /* JGsonObject.m */,
+				D08B44A223D0B48400ED5E83 /* JGsonConst.h */,
+				D08B44A323D0B48400ED5E83 /* JGsonConst.m */,
+			);
+			path = Class;
 			sourceTree = "<group>";
 		};
 		EBDAEE7489325FAAA46B6265 /* Frameworks */ = {
@@ -214,7 +238,7 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1030;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -228,6 +252,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -356,6 +381,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D08B44A123D0B3D000ED5E83 /* JGsonObject.m in Sources */,
+				D08B449E23D0B0AF00ED5E83 /* JGson.m in Sources */,
+				D08B44A423D0B48400ED5E83 /* JGsonConst.m in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -503,11 +531,15 @@
 			baseConfigurationReference = 9B2A3A298AC1D8362FF29E08 /* Pods-JGson_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JGson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JGson/Class/JGson_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
@@ -518,11 +550,14 @@
 			baseConfigurationReference = 09F81B40EAE3726AF6075CEA /* Pods-JGson_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JGson/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JGson/Class/JGson_Example-Bridging-Header.h";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
