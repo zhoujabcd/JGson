@@ -41,7 +41,7 @@
         
         const char * name = property_getName(property);
         
-        const char * propertyAttr = property_getAttributes(property);
+//        const char * propertyAttr = property_getAttributes(property);
         
         unsigned int attrCount = 0;
         
