@@ -204,4 +204,22 @@
     return model;
 }
 
+- (id)fromJson:(NSString *)json modelClass:(Class)modelClass
+{
+    NSData *jsonData = [json dataUsingEncoding:NSUTF8StringEncoding];
+    
+    if(jsonData == nil)
+    {
+        NSLog(@"JGson error: %@", NULL_NSDATA);
+        
+        return nil;
+    }
+    
+    NSDictionary *dict = [NSJSONSerialization JSONObjectWithData:jsonData options:kNilOptions error:nil];
+    
+    id m = [self fromDict:dict modelClass:modelClass];
+    
+    return m;
+}
+
 @end
